@@ -1,4 +1,4 @@
--- Turn off time in top-right
+-- Turn off time in bottom-right
 return {
   {
     "nvim-lualine/lualine.nvim",
