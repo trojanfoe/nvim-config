@@ -1,12 +1,9 @@
 return {
-
-  -- rust-analyzer settings
+  -- Turn off inlay hints by default
   {
     "neovim/nvim-lspconfig",
     opts = {
-      servers = {
-        rust_analyzer = {},
-      },
+      inlay_hints = { enabled = false },
     },
   },
 }
